@@ -1,0 +1,98 @@
+/*!
+ * Theme Name: Handmade's Tale
+ * Description: Custom theme for Handmade's Tale website
+ * Version: 1.0.0
+ * Author: Mohammad Ashour
+ * Author URI: http://www.ashour.ca
+ *
+ * License: MIT
+ * License URI: http://opensource.org/licenses/mit-license.php
+ */
+body,
+.pure-g [class*="pure-u"] {
+    font-family: 'Merriweather', serif;
+    color: #333;
+}
+[lang="ar"] body,
+[lang="ar"] .pure-g [class*="pure-u"] {
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.25rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+}
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4,
+[lang="ar"] h5,
+[lang="ar"] h6 {
+    font-family: 'Lemonada', cursive;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: #59BCE2;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.site-heading {
+    display: flex;
+    align-items: center;
+}
+.site-heading__link {
+    color: inherit;
+    text-decoration: none;
+}
+.site-heading__logo {
+    width: 60px;
+    height: auto;
+    margin-inline-end: 1rem;
+}
+
+.nav {
+    background-color: #9e0d41;
+    color: #fff;
+}
+.nav a {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    background-color: #9e0d41;
+    color: #fff;
+}
+.nav a:hover {
+    background-color: #fff;
+    color: #9e0d41;
+}
+
+.footer {
+    min-height: 60px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #9e0d41;
+    color: #fff;
+}
+
+.text-end {
+    text-align: right; /* Fallback */
+    text-align: end;
+}
+[dir="rtl"] .text-end {
+    text-align: left; /* Fallback */
+    text-align: end;
+}
