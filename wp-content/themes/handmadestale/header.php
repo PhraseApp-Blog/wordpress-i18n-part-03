@@ -48,8 +48,18 @@
                             'theme_location' => 'main-menu',
                             'container_class' => 'menu-main-menu-container pure-menu pure-menu-horizontal',
                             'items_wrap' => '<ul id="%1$s" class="pure-menu-list %2$s">%3$s</ul>',
-                            'walker' => new HandmadesTale_Walker_Nav_Menu,
+                            'walker' => new HMT_Walker_Nav_Menu,
                         )); ?>
+                    </div>
+
+                    <div class="pure-u-1-3">
+                        <!-- #language-switcher -->
+                        <?php if (is_active_sidebar('trailing_main_nav')) : ?>
+                            <div id="trailing_main_nav" class="widget-area">
+                                <?php dynamic_sidebar('trailing_main_nav'); ?>
+                            </div>
+                        <?php endif; ?>
+                        <!-- /#language-switcher -->
                     </div>
                 </nav>
                 <!-- /nav -->

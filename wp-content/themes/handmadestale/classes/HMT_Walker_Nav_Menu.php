@@ -3,7 +3,7 @@
 /**
  * Alter our menus' HTML.
  */
-class HandmadesTale_Walker_Nav_Menu extends Walker_Nav_Menu
+class HMT_Walker_Nav_Menu extends Walker_Nav_Menu
 {
     function start_el(&$output, $item, $depth = 0, $ars = array(), $id = 0)
     {

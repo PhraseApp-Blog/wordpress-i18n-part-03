@@ -5,7 +5,12 @@
                 <p class="footer__copyright">
                     &copy;
                     <?php echo esc_html(date('Y')); ?>
-                    Copyright <?php bloginfo('name'); ?>.
+
+                    <?php printf(
+                        __('Copyright 2019 %s', 'handmadestale'),
+                        get_bloginfo('name')
+                    ); ?>
+
                     <?php echo __('Powered by', 'handmadestale'); ?>
                     <a href="//wordpress.org" target="_blank">
                         <?php echo __('WordPress'); ?>

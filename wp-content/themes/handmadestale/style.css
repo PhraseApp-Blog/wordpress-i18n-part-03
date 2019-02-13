@@ -36,6 +36,10 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+h1 small {
+    font-size: 0.5em;
+    font-weight: normal;
+}
 
 a {
     color: #59BCE2;
